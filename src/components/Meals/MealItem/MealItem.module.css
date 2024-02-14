@@ -1,18 +1,24 @@
-.mealitem{
+.meal {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
 
     padding: 1rem;
-    background-color: rgb(142, 255, 202);
+    background-color: rgb(46, 224, 141);
     margin: 2rem auto;
     width: 50rem;
     max-width: 95%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
-
-}
-.mealitem h3 {
+  }
+  
+  .meal h3 {
     margin: 0 0 0.25rem 0;
   }
-.description {
+  
+  .description {
     font-style: italic;
   }
   
